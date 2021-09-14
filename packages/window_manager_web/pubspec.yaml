@@ -1,0 +1,28 @@
+name: window_manager_web
+description:
+version: 0.0.4
+homepage: https://github.com/leanflutter/embed_web_pkgs/packages/window_manager_web
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: WindowManagerPluginWeb
+        fileName: window_manager_plugin_web.dart
+
+  assets:
+    - js/
