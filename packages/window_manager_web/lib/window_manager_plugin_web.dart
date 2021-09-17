@@ -10,7 +10,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 /// A web implementation of the WindowManager plugin.
-class WindowManagerPluginWeb {
+class WindowManagerPlugin {
   static void registerWith(Registrar registrar) {
     final MethodChannel channel = MethodChannel(
       'window_manager',
@@ -18,11 +18,11 @@ class WindowManagerPluginWeb {
       registrar,
     );
 
-    final pluginInstance = WindowManagerPluginWeb();
+    final pluginInstance = WindowManagerPlugin();
     channel.setMethodCallHandler(pluginInstance.handleMethodCall);
   }
 
-  WindowManagerPluginWeb() {
+  WindowManagerPlugin() {
     _init();
   }
 

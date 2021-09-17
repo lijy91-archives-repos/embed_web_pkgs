@@ -256,7 +256,7 @@ class _HomePageState extends State<HomePage> with WindowListener {
                   text: '${title.toString()}',
                 );
                 title =
-                    'window_manager_example - ${DateTime.now().millisecondsSinceEpoch}';
+                    'window_manager_web_example - ${DateTime.now().millisecondsSinceEpoch}';
                 await windowManager.setTitle(title);
               },
             ),

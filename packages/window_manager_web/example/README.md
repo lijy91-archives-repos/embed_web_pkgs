@@ -1,4 +1,4 @@
-# window_manager_example
+# window_manager_web_example
 
 Demonstrates how to use the window_manager plugin.
 

@@ -1,1 +1,1 @@
-# embed_window_manager_example
+# embed_window_manager_web_example

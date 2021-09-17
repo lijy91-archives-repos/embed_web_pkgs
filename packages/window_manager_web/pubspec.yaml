@@ -21,7 +21,7 @@ flutter:
   plugin:
     platforms:
       web:
-        pluginClass: WindowManagerPluginWeb
+        pluginClass: WindowManagerPlugin
         fileName: window_manager_plugin_web.dart
 
   assets:
