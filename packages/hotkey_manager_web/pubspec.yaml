@@ -1,0 +1,31 @@
+name: hotkey_manager_web
+description:
+version: 0.1.1
+homepage: https://github.com/leanflutter/embed_web_pkgs/packages/hotkey_manager
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+  collection: ^1.15.0
+  uuid: ^3.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: HotkeyManagerPlugin
+        fileName: hotkey_manager_plugin_web.dart
+
+  assets:
+    - js/
