@@ -1,0 +1,1 @@
+# screen_text_extractor_web_example

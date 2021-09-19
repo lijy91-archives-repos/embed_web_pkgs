@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="/styles.css" rel="stylesheet" />
+    <title>embed_screen_text_extractor_web_example</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/cropperjs@1.5.12/dist/cropper.css"
+      rel="stylesheet"
+    ></link>
+    <script src="https://cdn.jsdelivr.net/npm/cropperjs@1.5.12/dist/cropper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dom-to-image@2.6.0/src/dom-to-image.js"></script>
+  </head>
+  <body>
+    <div
+      id="embed-flutter-app"
+      style="left: 400px; top: 100px; width: 500px; height: 600px"
+    >
+      <div id="embed-flutter-app-header">
+        <div class="button-close"></div>
+        <div class="button-minimize"></div>
+        <div class="button-maximize"></div>
+      </div>
+      <iframe
+        id="embed-flutter-app-iframe"
+        src="/screen_text_extractor_web_example/index.html"
+      ></iframe>
+    </div>
+    <p>The family is more important than the dream.</p>
+  </body>
+</html>
