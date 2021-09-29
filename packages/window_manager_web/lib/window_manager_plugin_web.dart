@@ -63,6 +63,8 @@ class WindowManagerPlugin {
         return isAlwaysOnTop(call);
       case "setAlwaysOnTop":
         return setAlwaysOnTop(call);
+      case "setSkipTaskbar":
+        return Future.value(true);
       default:
         throw PlatformException(
           code: 'Unimplemented',
