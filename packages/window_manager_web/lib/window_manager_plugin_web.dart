@@ -35,6 +35,10 @@ class WindowManagerPlugin {
   /// https://flutter.dev/go/federated-plugins
   Future<dynamic> handleMethodCall(MethodCall call) async {
     switch (call.method) {
+      case "ensureInitialized":
+        return Future.value(true);
+      case "waitUntilReadyToShow":
+        return Future.value(true);
       case "show":
         return show(call);
       case "hide":
