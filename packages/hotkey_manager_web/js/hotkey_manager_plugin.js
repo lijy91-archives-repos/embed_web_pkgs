@@ -73,8 +73,6 @@ function hotkeyManagerPluginRegister(hotkey) {
     _hotkeyManagerPluginInit();
   }
   _hotkeyMap[hotkey.identifier] = hotkey;
-
-  console.log(hotkey);
 }
 
 function hotkeyManagerPluginUnregister(hotkey) {
