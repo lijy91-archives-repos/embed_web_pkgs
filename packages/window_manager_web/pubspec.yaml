@@ -1,6 +1,6 @@
 name: window_manager_web
-description:
-version: 0.0.4
+description: A web implementation of window_manager plugin.
+version: 0.0.1
 homepage: https://github.com/leanflutter/embed_web_pkgs/packages/window_manager_web
 
 environment:
